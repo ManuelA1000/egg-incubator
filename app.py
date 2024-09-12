@@ -22,7 +22,7 @@ def predict_hatching(temperature, humidity):
         return "Unlikely to Hatch", "red"
 
 # Streamlit interface
-st.title("Egg Incubator Prediction App")
+st.title("Solar Incubator")
 
 # Display the optimal values for reference
 st.subheader("Optimal Conditions for Incubation:")
